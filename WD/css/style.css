@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    margin-top: 50px;
+}
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo {
+    font-family: Revalia, serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+}
+.navigation {
+    max-width: 612px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link {
+    color: #000000;
+}
+.hero{ 
+    background: #eeeff1;
+    padding-top: 250px;
+    padding-bottom: 153px;
+    margin-top: -110px;
+}
+.hero__img {
+    margin-left: 85px;
+}
+.info__block {
+    max-width: 540px;
+    width: 100%;
+}
+.hero__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.info__desc {
+    line-height: 26px;
+    color: #727272;
+
+}
+.button {
+    margin-top: 60px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 25px 41px;
+    background: #34547A;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.section__about {
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.hero__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__title {
+    margin-bottom: 50px;
+}
+.section__desc{ 
+    text-align: center;
+}
+.section__projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #34547A;
+}
+.text__block {
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.block__title {
+    font-size: 21px;
+    line-height: 25px;
+}
+.block__desc {
+    line-height: 26px;
+}
+.section__skills {
+    margin-top: 102px;
+}
+.skills__title {
+    font-size: 32px;
+    line-height: 37px;
+}
+.skills__desc {
+    margin-top: 50px;
+}
+.skills__line {
+    margin-top: 20px;
+    border: 1px solid #34547A;;
+    width: 349px;
+}
+.skills__img {
+    width: 555px;
+    margin-bottom: 101px;
+}
+.section__about__work {
+    background: #EEEFF1;
+}
+.work__video {
+    margin-top: 57px;
+    max-width: 1110px;
+    width: 100%;
+}
+.section__picture__block {
+    margin-top: 20px;
+}
+.picture__img {
+    width: 480px;
+    height: 480px;
+    margin: -5px;
+}
+.picture__block {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section__site__form {
+    padding-top: 100px;
+    background: #EEEFF1;
+    padding-bottom: 100px;
+}
+.forms {
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.form_name {
+    background: #FFFFFF;
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+.form_email {
+    background: #FFFFFF;
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+.form_message {
+    background: #FFFFFF;
+    margin-top: 20px;
+    width: 540px;
+    height: 175px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 117px;
+}
+.button--primary__form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 190px;
+    height: 55px;
+}.footer {
+    background: #34547A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footerblock {
+    max-width: 889px;
+    width: 100%;
+}
+.footertitle {
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF; 
+}
+.footer__desc {
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width:1000px) {
+
+}
