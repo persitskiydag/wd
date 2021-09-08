@@ -132,9 +132,15 @@ html{
     background: #EEEFF1;
 }
 .work__video {
+    background: url(../img/Rectangle5.png) no-repeat center / cover;
     margin-top: 57px;
     max-width: 1110px;
     width: 100%;
+    min-height: 600px;
+}
+.work__vector {
+    width: 100px;
+    height: 100px;
 }
 .section__picture__block {
     margin-top: 20px;
