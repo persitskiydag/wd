@@ -138,9 +138,10 @@ html{
     width: 100%;
     min-height: 600px;
 }
+
 .work__vector {
-    width: 100px;
-    height: 100px;
+    margin-top: 250px;
+    padding-left: 505px;
 }
 .section__picture__block {
     margin-top: 20px;
